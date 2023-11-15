@@ -1,9 +1,3 @@
-interface Sortable {
-  length: number;
-  compare(leftIndex: number, rightIndex: number): boolean;
-  swap(leftIndex: number, rightIndex: number): void;
-}
-
 //abstract class would let us access properties that don't exist YET
 export abstract class Sorter {
   abstract compare(leftIndex: number, rightIndex: number): boolean;
