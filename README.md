@@ -39,17 +39,18 @@ Viewers should be able to:
 
 long method
 
-````ts
+```ts
 collection: number[];
 
 constructor(collection: number[]) {
 this.collection = collection;
-}```
+}
+```
 
 shorter method by using a modifier inside the constructor argument
 
 ```ts
-constructor(public collection: number) {}
+constructor(public collection: number[]) {}
 ```
 
 ## Available Scripts
@@ -62,4 +63,7 @@ logs in the terminal.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-````
+
+```
+
+```
